@@ -198,4 +198,24 @@ main{
         width: calc((100%/4) - 24px);
         margin: 6px;
     }
+    .cover-mix{
+        width: calc((100%/2)/2 - 12px);
+        margin: 6px;
+    }
+}
+@media screen and (max-width:768px) {
+     .cover{
+         width: calc((100%/2) - 12px);
+         margin: 6px;
+     }
+     .cover-mix{
+        width: calc((100%/2) - 12px);
+        margin: 6px;
+    }
+     .wrap{
+        flex-flow: row wrap;
+     }
+     #main-content li{
+        padding-bottom: 40px;
+     }
 }
