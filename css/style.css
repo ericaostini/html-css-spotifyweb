@@ -36,6 +36,9 @@ img{
 .justify-center{
     justify-content: center;
 }
+.text-center{
+    text-align: center;
+}
 /* general */
 a, ul{
     text-decoration: none;
@@ -134,14 +137,6 @@ main{
     font-size: 2.5rem;
     color: var(--color-light-grey);
 }
-
-#main-content{
-    width: calc(100% - 200px);
-    overflow-y: auto;
-    padding-top: 100px;
-    background-color: var(--color-dark-color);
-    padding: 90px 10px 0px 10px;
-}
 .profile img{
     width: 30px;
     height: 30px;
@@ -149,6 +144,18 @@ main{
     border-radius: 50%;
 }
 
+/* main content */
+#main-content{
+    width: calc(100% - 200px);
+    overflow-y: auto;
+    padding-top: 100px;
+    background-color: var(--color-dark-color);
+    padding: 90px 10px 0px 10px;
+}
+.cover{
+    width: calc((100%/6)-36px);
+    margin: 6px;
+}
 /* call to action */
 .call-to-action{
     width: calc(100% - 200px);
