@@ -22,6 +22,7 @@ img{
 }
 .d-flex{
     display: flex;
+    flex-flow: row nowrap;
 }
 .align-center{
     align-items: center;
@@ -185,4 +186,16 @@ main{
     text-align: right;
     margin: 0 auto;
     padding: 25px 10px;
+}
+
+/* media query */
+@media screen and (max-width:992px) {
+    #recently .d-flex{
+       display: flex;
+       flex-flow: row wrap; 
+    }
+    .cover{
+        width: calc((100%/4) - 24px);
+        margin: 6px;
+    }
 }
