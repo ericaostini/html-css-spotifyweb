@@ -24,6 +24,12 @@ img{
     display: flex;
     flex-flow: row nowrap;
 }
+.stretch{
+    align-items: stretch;
+}
+.small-logo{
+    display: none;
+}
 .align-center{
     align-items: center;
     align-content: center;
@@ -219,6 +225,10 @@ main{
      }
 }
 @media screen and (max-width:576px) {
+    .wrapper{
+        height: 100%;
+        padding-bottom: 80px;
+    }
     #side-bar{
         width: 60px;
         background-color: var(--color-black);
@@ -241,8 +251,14 @@ main{
         right: 0;
         background-color: var(--color-black);
     }
-
     .hidden{
         visibility: hidden;
+    }
+    .small-logo{
+        display: inline-block;
+        width: 30px;
+    }
+    .logo{
+        display: none;
     }
 }
