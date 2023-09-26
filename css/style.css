@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .wrapper{
     width: 100%;
@@ -119,12 +120,23 @@ main{
     height: 4px;
     width: 100%;
     background-color: var(--color-grey);
+    position: relative;
 }
 .volume-bar{
-    width: 20%;
+    position: relative;
+    width: 30%;
     height: 4px;
-    background-color: var(--color-light-grey);
+    background-color: var(--color-grey);
 }
+.start-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 40%;
+    height: 4px;
+}
+
 /* side bar */
 #side-bar{
     width: 200px;
@@ -225,10 +237,10 @@ main{
      }
 }
 @media screen and (max-width:576px) {
-    .wrapper{
+    /* .wrapper{
         height: 100%;
         padding-bottom: 80px;
-    }
+    } */
     #side-bar{
         width: 60px;
         background-color: var(--color-black);
