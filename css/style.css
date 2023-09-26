@@ -163,11 +163,15 @@ main{
     width: calc((100%/2)/3 - 6px);
     margin: 6px;
 }
+.circle{
+    border-radius: 50%;
+}
 /* call to action */
 .call-to-action{
     width: calc(100% - 200px);
     height: 70px;
     position: fixed;
+    z-index: 100;
     top: 0;
     right: 0;
     background-color: var(--color-black);
