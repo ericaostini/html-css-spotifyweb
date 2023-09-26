@@ -87,7 +87,6 @@ hr{
 main{
     width: 100%;
     height: calc(100% - 80px);
-    background-color: violet;
 }
 
 /* play-bar */
@@ -218,4 +217,32 @@ main{
      #main-content li{
         padding-bottom: 40px;
      }
+}
+@media screen and (max-width:576px) {
+    #side-bar{
+        width: 60px;
+        background-color: var(--color-black);
+        color: var(--color-white);
+        position: relative;
+    }
+    #main-content{
+        width: calc(100% - 60px);
+        overflow-y: auto;
+        padding-top: 100px;
+        background-color: var(--color-dark-color);
+        padding: 90px 10px 0px 10px;
+    }
+    .call-to-action{
+        width: calc(100% - 60px);
+        height: 70px;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        right: 0;
+        background-color: var(--color-black);
+    }
+
+    .hidden{
+        visibility: hidden;
+    }
 }
