@@ -263,21 +263,20 @@ main{
     .fa-circle-down{
         font-size: 1.3rem;
     }
+    .profile{
+        justify-content: center;
+    }
+    .border-top{
+        display: none;
+    }
+    .bottom-bar{
+        text-align: center;
+    }
     #main-content{
         width: 100%;
-        overflow-y: auto;
-        padding-top: 100px;
-        background-color: var(--color-dark-color);
-        padding: 90px 10px 0px 70px;
     }
     .call-to-action{
         width: calc(100% - 60px);
-        height: 70px;
-        position: fixed;
-        z-index: 100;
-        top: 0;
-        right: 0;
-        background-color: var(--color-black);
     }
     .hidden{
         display: none;
@@ -287,6 +286,12 @@ main{
     }
     .logo{
         display: none;
+    }
+    #play-bar .d-flex{
+        flex-flow: row nowrap;
+    }
+    .big-font{
+        font-size: 1.2rem;
     }
 }
 
