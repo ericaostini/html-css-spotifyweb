@@ -165,8 +165,8 @@ main{
     height: 90px;
     padding: 10px;
 }
-.border-bottom{
-    border-bottom: 1px solid white;
+.border-top{
+    border-top: 1px solid white;
     width: 98%;
 }
 .fa-square-plus{
@@ -257,15 +257,11 @@ main{
      }
 }
 @media screen and (max-width:576px) {
-    .wrapper{
-        height: 100%;
-        padding-bottom: 80px;
-    }
     #side-bar{
         width: 60px;
-        background-color: var(--color-black);
-        color: var(--color-white);
-        position: relative;
+    }
+    .fa-circle-down{
+        font-size: 1.3rem;
     }
     #main-content{
         width: 100%;
@@ -284,22 +280,13 @@ main{
         background-color: var(--color-black);
     }
     .hidden{
-        visibility: hidden;
+        display: none;
     }
     .small-logo{
         display: inline-block;
-        width: 30px;
     }
     .logo{
         display: none;
-    }
-    #side-bar{
-        position: fixed;
-        left: 0;
-        z-index: 1000;
-    }
-    .install{
-        width: 100%;
     }
 }
 
