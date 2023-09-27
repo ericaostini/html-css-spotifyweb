@@ -62,7 +62,7 @@ a, ul{
 .c-flex{
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    align-items: flex-start;
 }
 .padding-x{
     padding-top: 10px;
@@ -89,7 +89,7 @@ a, ul{
 }
 
 hr{
-    width: 98%;
+    width: 95%;
 }
 main{
     width: 100%;
@@ -143,10 +143,6 @@ main{
     background-color: var(--color-black);
     color: var(--color-white);
     position: relative;
-}
-.side-bar-container{
-    width: 80%;
-    padding: 15px;
 }
 .list i{
     font-size: 1.5rem;
@@ -237,10 +233,10 @@ main{
      }
 }
 @media screen and (max-width:576px) {
-    /* .wrapper{
+    .wrapper{
         height: 100%;
         padding-bottom: 80px;
-    } */
+    }
     #side-bar{
         width: 60px;
         background-color: var(--color-black);
@@ -248,11 +244,11 @@ main{
         position: relative;
     }
     #main-content{
-        width: calc(100% - 60px);
+        width: 100%;
         overflow-y: auto;
         padding-top: 100px;
         background-color: var(--color-dark-color);
-        padding: 90px 10px 0px 10px;
+        padding: 90px 10px 0px 70px;
     }
     .call-to-action{
         width: calc(100% - 60px);
@@ -273,4 +269,14 @@ main{
     .logo{
         display: none;
     }
+    #side-bar{
+        position: fixed;
+        left: 0;
+        z-index: 1000;
+    }
+    .install{
+        width: 100%;
+    }
 }
+
+/* hover */
