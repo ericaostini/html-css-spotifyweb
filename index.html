@@ -16,43 +16,43 @@
             </div>
         </div>
         <main class="d-flex stretch">
-            <nav id="side-bar" class="small-font c-flex padding-x">
-                <div class="padding-y">
+            <nav id="side-bar" class="small-font">
+                <div class="top-bar">
                     <img src="img/logo.svg" alt="logo spotify" class="logo">
-                    <img src="img/logo-small.svg" alt="small logo" class="small-logo">
-                    <ul class="padding-x list">
+                    <ul class="list padding-x bold">
                         <li>
-                            <a href="#"><i class="fa-solid fa-house"></i><span class="hidden"> Home</span></a>
+                            <a href="#" class="grey-text"><i class="fa-solid fa-house padding-y"></i> <span class="hidden">Home</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i><span class="hidden"> Cerca</span></a>
+                            <a href="#" class="grey-text"><i class="fa-solid fa-magnifying-glass padding-y"></i><span class="hidden">Cerca
+                            </span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-lines-leaning"></i><span class="hidden"> La tua libreria</span></a>
+                            <a href="#" class="grey-text"><i class="fa-solid fa-lines-leaning padding-y"></i><span class="hidden">La tua libreria</span></a>
                         </li>
                     </ul>
-                    <h4 class="small-padding-bottom hidden">PLAYLIST</h4>
-                    <div class="d-flex align-center hidden">
-                        <a href="#"><i class="fa-solid fa-square-plus"></i></a> <p class="padding-y">Crea PLAYLIST</p>
+                    <h4 class="padding-x hidden text-white">PLAYLIST</h4>
+                    <div class="d-flex align-center hidden grey-text bold small-padding-bottom">
+                        <a href="#"><i class="fa-solid fa-square-plus"></i></a> <p class="padding-y">Crea Playlist</p>
                     </div>
-                    <ul class="padding-x line-height hidden">
-                        <li><a href="#">Nuova Playlist</a></li>
-                        <li><a href="#">Nuova Playlist</a></li>
-                        <li><a href="#">Nuova Playlist</a></li>
-                        <li><a href="#">Nuova Playlist</a></li>
-                        <li><a href="#">Nuova Playlist</a></li>
-                        <li><a href="#">Nuova Playlist</a></li>
-                        <li><a href="#">Nuova Playlist</a></li>
+                    <ul class="line-height hidden playlist">
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
                     </ul>
                 </div>
-                <div class="install">
-                    <div class="padding-y padding-x">
-                        <i class="fa-regular fa-circle-down padding-y padding-x"></i> <span class="hidden">Installa app</span>
-                        <hr class="hidden">
+                <div class="bottom-bar">
+                    <div class="border-bottom padding-x">
+                        <a href="#" class="grey-text"><i class="fa-regular fa-circle-down"></i><span class="hidden padding-y bold">Installa app</span></a>
                     </div>
-                    <div class="profile d-flex align-center padding-y">
+                    <!-- <hr class="hidden"> -->
+                    <div class="profile d-flex align-center padding-x">
                         <img src="img/profile.svg" alt="profile">
-                        <p class="bold padding-y hidden">John Doe</p>
+                        <p class="bold hidden padding-y">John Doe</p>
                     </div>
                 </div>
             </nav>
@@ -71,42 +71,72 @@
                     <h2>Recently played</h2>
                     <div class="album d-flex wrap">
                         <div class="cover padding-x">
-                            <img src="img/metal_lifting.jpg" alt="metal">
+                            <div class="cover-img">
+                                <img src="img/metal_lifting.jpg" alt="metal">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <p class="text-center padding-x small-font">
                                 Heavy Metal <br>
                                 <span class="opacity">Subtitle</span>
                             </p>
                         </div>
                         <div class="cover padding-x">
-                            <img src="img/stranger.jpeg" alt="stranger things">
+                            <div class="cover-img">
+                                <img src="img/stranger.jpeg" alt="stranger things">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <p class="text-center padding-x small-font">
                                 Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack) <br>
                                 <span class="opacity">Kyle Dixon & Michael Stein</span>
                             </p>
                         </div>
                         <div class="cover padding-x">
-                            <img src="img/aquietplace.jpeg" alt="a quiet place">
+                            <div class="cover-img">
+                                <img src="img/aquietplace.jpeg" alt="a quite place">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <p class="text-center padding-x small-font">
                                 A quiet place <br>
                                 <span class="opacity">Subtitle</span>
                             </p>
                         </div>
                         <div class="cover padding-x">
-                            <img src="img/split.jpeg" alt="split">
+                            <div class="cover-img">
+                                <img src="img/split.jpeg" alt="split">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <p class="text-center padding-x small-font">
                                 Split <br>
                                 <span class="opacity">Subtitle</span>
                             </p>
                         </div>
                         <div class="cover padding-x">
-                            <img src="img/cure.jpeg" alt="a cure for wellness">
+                            <div class="cover-img">
+                                <img src="img/cure.jpeg" alt="cure wellness">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <p class="text-center padding-x small-font">
                                 A cure for wellness <br>
                                 <span class="opacity">Subtitle</span>
                             </p>
                         </div>
                         <div class="cover padding-x">
-                            <img src="img/sinister.jpeg" alt="sinister">
+                            <div class="cover-img">
+                                <img src="img/sinister.jpeg" alt="sinister">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <p class="text-center padding-x small-font">
                                 Sinister <br>
                                 <span class="opacity">Subtitle</span>
@@ -119,11 +149,21 @@
                     <p class="opacity padding-x small-font">Più ascolti, più accurati saranno i suggerimenti.</p>
                     <div class="album d-flex justify-start">
                         <div class="padding-x cover-mix">
-                            <img src="img/radar.jpeg" alt="relase radar">
+                            <div class="cover-img">
+                                <img src="img/radar.jpeg" alt="radar">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <p class="padding-x small-font text-center">Release Radar</p>
                         </div>
                         <div class="padding-x cover-mix">
-                            <img src="img/mixdaily.jpeg" alt="relase radar">
+                            <div class="cover-img">
+                                <img src="img/mixdaily.jpeg" alt="mix daily">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <p class="padding-x small-font text-center">Daily Mix 1</p>
                         </div>
                     </div>
@@ -133,11 +173,21 @@
                     <p class="opacity padding-x small-font">Più ascolti, più accurati saranno i suggerimenti.</p>
                     <div class="album d-flex justify-start">
                         <div class="padding-x cover-mix">
-                            <img src="img/youg.jpeg" alt="youg" class="circle">
+                            <div class="cover-img">
+                                <img src="img/youg.jpeg" alt="lana del rey" class="circle">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <p class="small-font text-center padding-x">Lana Del Rey</p>
                         </div>
                         <div class="padding-x cover-mix">
-                            <img src="img/einaudi.jpeg" alt="einaudi" class="circle">
+                            <div class="cover-img">
+                                <img src="img/einaudi.jpeg" alt="enaudi" class="circle">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <p class="small-font text-center padding-x">Ludovico Einaudi</p>
                         </div>
                     </div>
