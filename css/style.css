@@ -122,21 +122,12 @@ main{
 .play-bar{
     height: 4px;
     width: 100%;
-    background-color: var(--color-grey);
-    position: relative;
 }
+input[type="range"] {
+    accent-color: var(--color-white);
+  }
 .volume-bar{
-    position: relative;
     width: 30%;
-    height: 4px;
-    background-color: var(--color-grey);
-}
-.start-bar{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--color-white);
-    width: 40%;
     height: 4px;
 }
 
@@ -304,10 +295,6 @@ main{
 }
 .hover-play{
     display: none;
-    transition: 2s;
-}
-.hover-play:hover{
-    display: inline-block;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -315,6 +302,10 @@ main{
     left: 0;
     background-color: rgba(0, 0, 0, 0.292);
     font-size: 2rem;
+    transition: display 2s;
+}
+.hover-play:hover{
+    display: block;
 }
 .hover-play-circle{
     border-radius: 50%;
@@ -335,3 +326,6 @@ main{
 .side-green:hover{
     border-left: 2px solid var(--color-highlight);
 }
+input[type="range"]:hover{
+    accent-color: var(--color-highlight);
+  }
