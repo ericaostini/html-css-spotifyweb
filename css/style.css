@@ -91,9 +91,15 @@ a, ul{
 hr{
     width: 95%;
 }
+.bold{
+    font-weight: 600;
+}
 main{
     width: 100%;
     height: calc(100% - 80px);
+}
+.grey-text{
+    color: var(--color-light-grey);
 }
 
 /* play-bar */
@@ -104,6 +110,7 @@ main{
     z-index: 1000;
     bottom: 0;
     background-color: var(--color-dark-grey);
+    color: var(--color-light-grey);
 }
 #play-bar img{
     width: 40px;
@@ -141,7 +148,6 @@ main{
 #side-bar{
     width: 200px;
     background-color: var(--color-black);
-    color: var(--color-white);
     position: relative;
 }
 .list i{
@@ -202,11 +208,10 @@ main{
 }
 
 /* media query */
-@media screen and (max-width:992px) {
-    #recently .d-flex{
-       display: flex;
-       flex-flow: row wrap; 
-    }
+@media screen and (max-width:1200px) {
+    .wrap{
+        flex-flow: row wrap;
+     }
     .cover{
         width: calc((100%/4) - 24px);
         margin: 6px;
@@ -282,4 +287,8 @@ main{
 /* hover */
 .bt-upgrade:hover{
     padding: 12px 35px;
+}
+.grey-text:hover{
+    color: var(--color-white);
+    border-bottom: 1px solid var(--color-highlight);
 }
