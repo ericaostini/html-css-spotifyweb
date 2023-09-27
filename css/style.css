@@ -380,3 +380,7 @@ input[type="range"]:hover{
     width: 60px;
     height: 60px;
 }
+.number-container{
+    width: 100px;
+    height: 100px;
+}
