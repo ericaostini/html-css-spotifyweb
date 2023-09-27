@@ -355,3 +355,7 @@ input[type="range"]:hover{
     font-size: 3rem;
     color: var(--color-white);
 }
+.library-intro{
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
