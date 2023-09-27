@@ -303,6 +303,11 @@ main{
     color: var(--color-white);
 }
 .hover-play{
+    display: none;
+    transition: 2s;
+}
+.hover-play:hover{
+    display: inline-block;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -310,4 +315,17 @@ main{
     left: 0;
     background-color: rgba(0, 0, 0, 0.292);
     font-size: 2rem;
+}
+.hover-play-circle{
+    border-radius: 50%;
+}
+.underline:hover{
+    text-decoration: underline;
+}
+.green:hover{
+    color: var(--color-highlight);
+    font-weight: 700;
+}
+.start-bar:hover{
+    background-color: var(--color-highlight);
 }
