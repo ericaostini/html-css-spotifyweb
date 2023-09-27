@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>La mia libreria</title>
+</head>
+<body id="library">
+    <div class="wrapper">
+        <div class="call-to-action medium-font">
+            <div class="button">
+                <a href="#" class="bt-upgrade">EFFETTUTA L'UPGRADE</a>
+            </div>
+        </div>
+        <main class="d-flex stretch">
+            <nav id="side-bar" class="small-font">
+                <div class="top-bar">
+                    <img src="../img/logo.svg" alt="logo spotify" class="logo">
+                    <img src="../img/logo-small.svg" alt="small logo" class="small-logo">
+                    <ul class="list padding-x bold">
+                        <li class="side-green">
+                            <a href="#" class="grey-text"><i class="fa-solid fa-house padding-y"></i> <span class="hidden">Home</span></a>
+                        </li>
+                        <li class="side-green">
+                            <a href="#" class="grey-text"><i class="fa-solid fa-magnifying-glass padding-y"></i><span class="hidden">Cerca
+                            </span></a>
+                        </li>
+                        <li class="side-green">
+                            <a href="#" class="grey-text"><i class="fa-solid fa-lines-leaning padding-y"></i><span class="hidden">La tua libreria</span></a>
+                        </li>
+                    </ul>
+                    <h4 class="padding-x hidden text-white">PLAYLIST</h4>
+                    <div class="d-flex align-center hidden grey-text bold small-padding-bottom">
+                        <a href="#"><i class="fa-solid fa-square-plus white grey-text"></i></a> <p class="padding-y">Crea Playlist</p>
+                    </div>
+                    <ul class="line-height hidden playlist">
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                    </ul>
+                </div>
+                <div class="bottom-bar">
+                    <div class="padding-x">
+                        <a href="#" class="grey-text"><i class="fa-regular fa-circle-down"></i><span class="hidden padding-y bold">Installa app</span></a>
+                    </div>
+                    <div class="border-top"></div>
+                    <div class="profile d-flex align-center padding-x justify-start">
+                        <img src="../img/profile.svg" alt="profile">
+                        <p class="bold hidden padding-y">John Doe</p>
+                    </div>
+                </div>
+            </nav>
+            <div id="main-content">
+                <section class="d-flex align-center">
+                    <div class="heart-container">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Playlist</li>
+                            <li><h1>Brani che ti piacciono</h1></li>
+                            <li>
+                                <div class="profile d-flex align-center">
+                                    <img src="../img/profile.svg" alt="player">
+                                    <span class="padding-y">Erica Ostini - 4 brani</span>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <div id="play-bar" class="d-flex space-between">
+            <div class="d-flex align-center song text-white padding-y">
+                <img src="../img/sinister.jpeg" alt="sinister">
+                <p class="padding-y small-font">
+                    <span class="underline">Sinister</span><br>
+                    <span class="opacity underline">Brano Nome</span>
+                </p>
+                <p class="opacity padding-y"><i class="fa-regular fa-heart big-font green"></i> <i class="fa-regular fa-folder big-font green"></i></p>
+            </div>
+            <div class="text-white song">
+                <div class="play d-flex justify-center">
+                    <i class="fa-solid fa-shuffle padding-y big-font green"></i>
+                    <i class="fa-solid fa-backward-step padding-y big-font green"></i>
+                    <i class="fa-regular fa-circle-play padding-y big-font green"></i>
+                    <i class="fa-solid fa-forward-step padding-y big-font green"></i>
+                    <i class="fa-solid fa-rotate-right padding-y big-font green"></i>
+                </div>
+                <div class="small-font d-flex align-center">
+                    <p class="padding-y">0.23</p>
+                    <input type="range" class="play-bar">
+                    <p class="padding-y">4.35</p>
+                </div>
+            </div>
+            <div class="text-white song d-flex align-center justify-end padding-y">
+                <i class="fa-solid fa-bars padding-y green"></i>
+                <i class="fa-solid fa-tv padding-y green"></i>
+                <i class="fa-solid fa-volume-high padding-y green"></i>
+                <input type="range" class="volume-bar">
+            </div>
+        </div>
+</body>
+</html>

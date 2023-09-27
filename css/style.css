@@ -332,3 +332,26 @@ input[type="range"] {
 input[type="range"]:hover{
     accent-color: var(--color-highlight);
   }
+
+/* la mia libreria */
+/*  */
+
+#library{
+    background-color: var(--color-dark-color);
+}
+.heart-container{
+    background-color: rgb(172, 105, 235);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+}
+.heart-container i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: var(--color-white);
+}
