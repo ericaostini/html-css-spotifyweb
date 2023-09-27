@@ -359,3 +359,20 @@ input[type="range"]:hover{
     padding: 10px;
     border-bottom: 1px solid white;
 }
+.dropdown{
+    position: relative;
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 1;
+    background-color: var(--color-dark-grey);
+    min-width: 100%;
+    padding: 10px;
+}
+.dropdown:hover .dropdown-content{
+    display: inline-block;
+}
