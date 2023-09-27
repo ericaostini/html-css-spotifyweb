@@ -329,3 +329,9 @@ main{
 .start-bar:hover{
     background-color: var(--color-highlight);
 }
+.border-green:hover{
+    border-bottom: 2px solid var(--color-highlight);
+}
+.side-green:hover{
+    border-left: 2px solid var(--color-highlight);
+}
