@@ -295,17 +295,17 @@ input[type="range"] {
 }
 .hover-play{
     display: none;
+    transition: display 4s;
+}
+.cover-img:hover .hover-play{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.292);
     position: absolute;
     top: 0;
-    bottom: 0;
-    right: 0;
+    bottom:0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.292);
-    font-size: 2rem;
-    transition: display 2s;
-}
-.hover-play:hover{
-    display: block;
+    right: 0;
+    font-size: 3rem;
 }
 .hover-play-circle{
     border-radius: 50%;
