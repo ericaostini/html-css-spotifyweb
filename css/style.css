@@ -280,3 +280,6 @@ main{
 }
 
 /* hover */
+.bt-upgrade:hover{
+    padding: 12px 35px;
+}
