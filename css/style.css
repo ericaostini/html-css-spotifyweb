@@ -459,13 +459,13 @@ input[type="range"]:hover{
 /*  */
 
 .gradient{
-    background: linear-gradient(to bottom, rgba(137,52,247,1) 0%, rgba(137,52,247,1) 32%, rgba(36,35,36,1) 51%, rgba(0,0,0,1) 71%, rgba(28,28,28,1) 100%);
+    background: linear-gradient(to bottom, rgba(26,115,199,1) 0%, rgba(38,128,213,1) 18%, rgba(39,129,214,1) 19%, rgba(58,105,138,1) 39%, rgba(67,74,79,1) 56%, rgba(51,56,59,1) 67%, rgba(40,44,46,1) 74%, rgba(3,3,3,1) 100%);
 }
 .title{
     font-size: 4rem;
 }
 .heart-container{
-    background-color: rgb(172, 105, 235);
+    background: linear-gradient(135deg, rgba(26,115,199,1) 0%, rgba(37,127,212,1) 18%, rgba(39,129,214,1) 21%, rgba(144,195,240,1) 64%, rgba(186,215,242,1) 79%, rgba(194,219,242,1) 82%, rgba(252,252,252,1) 100%);
     width: 300px;
     height: 300px;
     min-width: 300px;
@@ -541,7 +541,7 @@ input[type="range"]:hover{
     border-bottom: 1px solid var(--color-dark-grey);
 }
 .divRow:hover{
-    background-color: rgba(0, 0, 0, 0.358);
+    background-color: rgba(255, 255, 255, 0.333);
     border-radius: 10px;
 }
 .divCell .fa-ellipsis{
