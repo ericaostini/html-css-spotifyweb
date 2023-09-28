@@ -97,7 +97,9 @@ main{
 .grey-text{
     color: var(--color-light-grey);
 }
-
+.medium-font{
+    font-size: 2rem;
+}
 /* play-bar */
 #play-bar{
     width: 100%;
@@ -385,7 +387,6 @@ input[type="range"]:hover{
     display: table;
     width: 100%;
     color: var(--color-white);
-    border-top:1px solid #666666;
     border-spacing:20px;
 }
 .divRow{
@@ -410,3 +411,9 @@ input[type="range"]:hover{
 .divCell .fa-heart{
     color: var(--color-highlight);
 }
+.green-play{
+    font-size: 3.5rem;
+    color: var(--color-highlight);
+    padding-right: 20px;
+}
+
