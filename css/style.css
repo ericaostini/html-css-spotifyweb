@@ -342,10 +342,13 @@ input[type="range"]:hover{
 #library{
     background-color: var(--color-dark-color);
 }
+.title{
+    font-size: 4rem;
+}
 .heart-container{
     background-color: rgb(172, 105, 235);
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     position: relative;
     margin: 10px;
     border-radius: 10px;
@@ -355,12 +358,11 @@ input[type="range"]:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3rem;
+    font-size: 5rem;
     color: var(--color-white);
 }
 .library-intro{
     padding: 10px;
-    border-bottom: 1px solid white;
 }
 .dropdown{
     position: relative;
