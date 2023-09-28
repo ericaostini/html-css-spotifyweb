@@ -458,7 +458,7 @@ input[type="range"]:hover{
 /* la mia libreria */
 /*  */
 
-#library{
+.gradient{
     background: linear-gradient(to bottom, rgba(137,52,247,1) 0%, rgba(137,52,247,1) 32%, rgba(36,35,36,1) 51%, rgba(0,0,0,1) 71%, rgba(28,28,28,1) 100%);
 }
 .title{
