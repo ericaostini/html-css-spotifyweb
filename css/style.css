@@ -103,8 +103,11 @@ main{
 .padding-right{
     padding-right: 31px;
 }
-.padding-bottom{
-    padding-bottom: 10px;
+.padding-top{
+    padding-top: 10px;
+}
+.padding-left{
+    padding-left: 31px;
 }
 /* play-bar */
 #play-bar{
@@ -505,6 +508,7 @@ input[type="range"]:hover{
 .divRow{
     vertical-align: middle;
     width: auto;
+    height: 50px;
     display:table-row;
 }
 .divCell-plus{
@@ -513,7 +517,8 @@ input[type="range"]:hover{
     display:table-column;
 }
 .divCell{   
-    width:20%;
+    width: 20%;
+    height: 50px;
     float: left;
     display:table-column;
 }
@@ -536,5 +541,11 @@ input[type="range"]:hover{
 .divRow:hover{
     background-color: rgba(0, 0, 0, 0.358);
     border-radius: 10px;
+}
+.divCell .fa-ellipsis{
+    display: none;
+}
+.divRow:hover .fa-ellipsis{
+    display: inline-block;
 }
 
